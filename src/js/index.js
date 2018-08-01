@@ -139,4 +139,4 @@ const datosUsuario = (user) =>{
   };
   database.ref('Usuarios/' + user.uid)
     .set(usuario);
-};
+}; 
